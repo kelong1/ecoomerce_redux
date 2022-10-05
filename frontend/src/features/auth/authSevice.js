@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API="http://localhost:9000/app/users/"
+const API="http://localhost:7000/app/users/"
 const register=async(userData)=>{
     const response=await axios.post(API+"register",userData)
 
