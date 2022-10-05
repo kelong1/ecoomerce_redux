@@ -1,12 +1,12 @@
 import React from 'react';
 import {BrowserRouter as Router ,Routes ,Route} from "react-router-dom"
 
-import Header from './components/Header/Header';
-import { Home } from './components/Home/Home';
-import Login from './components/Login/Login';
-import Register from './components/Register/Register';
+import Header from './components/Header';
+import { Home } from './components/Home';
+import Login from './components/Login';
+import Register from './components/Register';
 import "./App.css"
-import AddProduct from './components/AddProduct/AddProduct';
+import AddProduct from './components/AddProduct';
 
 function App() {
   return (
