@@ -1,17 +1,19 @@
 import React from 'react'
-import{Link } from "react-router-dom"
+
 
 const AddProduct = () => {
   return (
     <div>
-        <form classname="productForm" className='form-control'>
+        <form className="productForm form-control"  method="post" enctype="multipart/form-data">
             <h2>Add a new product</h2>
-            <input type="text" placeholder='Enter your Title'className='form-control'/>
-            <input type="text" placeholder='Enter your category'className='form-control' />
-            <textarea name="" id="" cols="30" rows="10" placeholder='Write your new Blog'className='form-control'></textarea>
+            <input type="text" placeholder='Enter category' name="category"className='form-control'/>
+            <input type="text" placeholder='Enter product name' name="category"className='form-control'/>
+            <input type="text" placeholder='Enter product description ' name="category"className='form-control'/>
+            <input type="integer" placeholder='Enter product price'className='form-control' />
+            <input type="file" placeholder='Enter product image' name="image"className='form-control'/>
             
-            <button className='btn btn-dark'>Submit</button>
-            <p>Already have an account <Link to="/">Login here</Link></p>
+            <button className='btn btn-block'>Submit</button>
+            
         </form>
     </div>
   )

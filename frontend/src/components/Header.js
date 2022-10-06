@@ -23,6 +23,7 @@ function Header(){
                 <li>
                     <Link to="/" className='li'>Home</Link>
                 </li>
+                
                 <ul>
                     {user?( 
                     <li>
@@ -36,6 +37,9 @@ function Header(){
                      </li></>)}
                
                 </ul>
+                <li>
+                    <Link to="/AddProduct" className='li'>AddProduct</Link>
+                </li>
                
                 
               

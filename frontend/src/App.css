@@ -79,6 +79,15 @@
   align-items: center;
   flex-direction: column;
 }
+.productForm{
+  height: 500px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
 .btn{
   background-color: black;
   color: white;
